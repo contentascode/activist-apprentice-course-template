@@ -1,0 +1,13 @@
+if (activity)
+  ul
+    li
+      a(href=site.baseurl + '/activities/' + paths.name ) Do the Activity
+
+if (previous)
+  a(href=site.baseurl + previous.paths.dhref + previous.paths.name) &#60;&#60; Previous Lesson
+
+if (previous && next) 
+  span &nbsp;|&nbsp;
+  
+if (next)
+  a(href=site.baseurl + next.paths.dhref + next.paths.name ) Next Lesson &#62;&#62;

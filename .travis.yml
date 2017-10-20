@@ -1,0 +1,2 @@
+script:
+  - ./trigger-travis.sh contentascode activist-apprentice master $TOKEN

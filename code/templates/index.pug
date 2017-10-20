@@ -1,0 +1,12 @@
+extends html
+
+block main
+  .docs-section
+    if (title) 
+      h1.docs-header= title
+    else
+      .space 
+    != contents
+
+  include lessons
+  include activities

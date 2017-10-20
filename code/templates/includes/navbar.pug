@@ -1,0 +1,19 @@
+.navbar-spacer
+nav.navbar.navbar-fixed-top
+  .container
+    ul.navbar-list
+      li.navbar-item
+        a.navbar-link(href=site.baseurl+"/") Home
+      - var toTitleCase = function (str) { return str.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();}); }
+      //- each subnav, link in navigation
+      //-   li.navbar-item
+      //-     a.navbar-link(href="#",data-popover="#codeNavAbout") #{toTitleCase(link)}
+      //-     #codeNavAbout.popover
+      //-       ul.popover-list
+      //-         each item, sublink in subnav
+      //-           li.popover-item: a.popover-link(href=site.baseurl+"/" + link + "/" + sublink + ".guide")= item
+                  
+      li.navbar-item.u-pull-right.hidden#cd-cart-trigger
+        a.navbar-link.cd-img-replace.cd-cart(href='#0') Plan
+          i.glyphicon.glyphicon-list-alt
+            span 0
