@@ -9,12 +9,7 @@
 # to use shorthand names in metadata and transclusion.
 name: Activist Apprentice Template
 packages:
-  # activities: safetag-activities@^0.0.1
-  # context-research: activity-context-research@^1.0.0
-  # network-mapping: activity-network-mapping@^1.0.0
-  # physical-security-tour: activity-physical-security-tour@^1.0.0
-  # minimum-audit: template-plan-minimum-audit@^1.0.0
-  # report-default: ^1.0.0
+  apprentice: activist-apprentice-course-template
 
 # This will deploy the workspaces when using `safetag init`.
 workspace:
