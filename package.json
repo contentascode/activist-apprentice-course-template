@@ -1,0 +1,26 @@
+{
+  "name": "activist-apprentice",
+  "version": "0.2.6",
+  "description": "Activist Apprentice",
+  "bin": {
+    "apprentice": "../../../bin/content",
+    "apprentice-init": "../../../bin/content-init",
+    "apprentice-link": "../../../bin/content-link",
+    "apprentice-start": "../../../bin/content-start",
+    "apprentice-pkgpath": "./package.json"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postversion": "git push --follow-tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/contentascode/activist-apprentice.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/contentascode/activist-apprentice/issues"
+  },
+  "homepage": "https://github.com/contentascode/activist-apprentice#readme"
+}

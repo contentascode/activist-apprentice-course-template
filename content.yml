@@ -1,0 +1,7 @@
+# package name space mapping mechanism using an `@maintainer` scope syntax
+# uses underlying npm package download schemes and semver to allow:
+#  - use of non registry published packages on a git or https endpoint.
+#  - use of private registry.
+---
+packages:
+  'activist-apprentice-course-template': activist-apprentice-course-template@^0.0.1
