@@ -1,6 +1,6 @@
 {
   "name": "activist-apprentice-course-template",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Activist Apprentice - Course Template",
   "main": "content.yml",
   "scripts": {
