@@ -21,7 +21,7 @@ script:
   - mkdir workspace && cd workspace
   - apprentice init --defaults
   # Build website
-  - apprentice start --clean --no-watch --baseurl /apprentice/@apprentice/toolkit toolkit
+  - apprentice start --clean --no-watch --baseurl /activist-apprentice/@apprentice
 
 deploy:
   - provider: pages
