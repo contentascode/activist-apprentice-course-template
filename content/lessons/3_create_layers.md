@@ -1,5 +1,6 @@
 ---
 title: Create Layers
+activity: true
 ---
 
 [Create Layers](images/1.jpg)
@@ -43,7 +44,3 @@ Example 2
 Example 3
 
 Congratulations, you've learned the basics to creating layers in a photo. Practice your new skill in the activity below.
-
-[Do the Activity](3_create_layers_activity)
-[Next Lesson](4_capture_peak_action)
-[Previous Lesson](2_compose_with_a_grid)

@@ -60,7 +60,3 @@ See More Examples
 ![](images/example_3.jpg)
 
 Congratulations, you've learned the basic steps to compose photos with a grid. Practice your new skill in the activity below.
-
-[Do the Activity](2_compose_with_a_grid_activity)
-[Next Lesson](3_create_layers)
-[Previous Lesson](1_know_your_mobile)

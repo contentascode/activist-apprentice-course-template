@@ -3,11 +3,26 @@ if (activity)
     li
       a(href=site.baseurl + '/activities/' + paths.name ) Do the Activity
 
-if (previous)
-  a(href=site.baseurl + previous.paths.dhref + previous.paths.name) &#60;&#60; Previous Lesson
+if (paths.dir === 'activities')
+  ul
+    li
+      a(href=site.baseurl + '/lessons/' + paths.name ) Return to Lesson
+  if (previous)
+    a(href=site.baseurl + previous.paths.dhref + previous.paths.name) &#60;&#60; Previous Activity
 
-if (previous && next) 
-  span &nbsp;|&nbsp;
-  
-if (next)
-  a(href=site.baseurl + next.paths.dhref + next.paths.name ) Next Lesson &#62;&#62;
+  if (previous && next) 
+    span &nbsp;|&nbsp;
+    
+  if (next)
+    a(href=site.baseurl + next.paths.dhref + next.paths.name ) Next Activity &#62;&#62;
+
+
+if (paths.dir === 'lessons')
+  if (previous)
+    a(href=site.baseurl + previous.paths.dhref + previous.paths.name) &#60;&#60; Previous Lesson
+
+  if (previous && next) 
+    span &nbsp;|&nbsp;
+    
+  if (next)
+    a(href=site.baseurl + next.paths.dhref + next.paths.name ) Next Lesson &#62;&#62;

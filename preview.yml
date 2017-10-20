@@ -10,7 +10,7 @@ metadata:
       current_branch: master
       base: 'https://github.com/'
       repo: 'contentascode/activist-apprentice-course-template'
-      package: 'toolkit'
+      package: 'activist-apprentice'
 plugins:
 
   - metalsmith-debug: {}
@@ -121,7 +121,7 @@ plugins:
       preserve: 'true'
       metadata:
         layout: lesson.pug
-    - pattern: "activities/*/*.md"
+    - pattern: "activities/*.md"
       preserve: 'true'
       metadata:
         layout: activity.pug

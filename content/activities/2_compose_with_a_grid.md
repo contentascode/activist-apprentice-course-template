@@ -18,6 +18,3 @@ Below is a clip card. Select **"Capture"** to launch the camera and take a photo
 
 **Fill the entire frame and use the lines and intersections in your composition.**
 _(Action clip, length 20 seconds)_
-
-[Return to Lesson](2_compose_with_a_grid)
-[Next Lesson](/lessons/3_create_layers)
