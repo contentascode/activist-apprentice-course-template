@@ -1,7 +1,8 @@
 ---
-layout: page
-title: Share Your Story
+layout: index.pug
 ---
+
+# Share Your Story
 
 You’ve found a story, you’ve taken the risk, you’ve created media and you’ve managed to do it safely. The bulk of your work is behind you. Follow through now and your media can make a real impact.
 

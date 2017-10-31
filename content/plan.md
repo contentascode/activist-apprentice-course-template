@@ -1,7 +1,9 @@
 ---
-layout: page
-title: Plan Your Story
+layout: index.pug
 ---
+
+# Plan Your Story
+
 
 To get you started, we’ll review four important steps to prepare yourself to go out and produce
 media. You should be completely comfortable with these concepts and ideas before setting out to produce media.
