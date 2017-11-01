@@ -23,7 +23,7 @@ http://www.ubuntu.com/download/ubuntu/download
 
 ## PHONE
 
-Each phone has a unique identity. Unless you obtain an anonymous phone, nothing you say is private. To communicate privately, make calls only between anonymous phones.  
+Each phone has a unique identity. Unless you obtain an anonymous phone, nothing you say is private. To communicate privately, make calls only between anonymous phones.
 
 A measure of security is possible over VOIP clients like **Skype** but is by no means 100% secure.
 
@@ -43,7 +43,7 @@ There are third party software solutions for secure texting, but they’re not a
 
 Use email that supports **HTTPS** secure connections. We advise using **HushMail** or **Gmail** for this.
 
-It’s important to be sure you have a secure connection. When connecting to email services, do not connect via **HTTP://** -- connect only via **HTTP*S://***. You can set this to the default option in Gmail by going to the settings and selecting “Always use HTTPS”. You should also make sure anyone you communicate is doing this.
+It’s important to be sure you have a secure connection. When connecting to email services, do not connect via *HTTP://* -- connect only via **HTTPS://**. You can set this to the default option in Gmail by going to the settings and selecting “Always use HTTPS”. You should also make sure anyone you communicate is doing this.
 
 Do not open attachments. Use the “view” option instead.
 
