@@ -9,22 +9,23 @@ media. You should be completely comfortable with these concepts and ideas before
 
 Giving yourself a firm understanding of these core principles will make the story you’re telling easier to understand as well as keep you safe.
 
-## 01. [PLAN FOR SAFETY](../content/plan/1-0-planForSafety.md)
-⋅⋅1. [Are you at Risk?](/plan/1-1-areYouAtRisk)
-⋅⋅2. [Communicate Safely](/plan/1-2-communicateSafely)
-..3. [Traveling Safely](/plan/1-3-travelingSafely)
+## 1. [PLAN FOR SAFETY](../content/plan/1-0-planForSafety.md)
 
-## 02 - [WHAT A STORY IS](/plan/2-0-whatAStoryIs)
+⋅⋅1. [Are you at Risk?](../content/plan/1-1-areYouAtRisk.md)
+⋅⋅1. [Communicate Safely](../content/plan/1-2-communicateSafely.md)
+..1. [Traveling Safely](../content/plan/1-3-travelingSafely.md)
 
-2.1 [Story Goals](/plan/2-1-storyGoals)
-2.2 [Elements of a Story](/plan/2-2-elementsOfAStory)
+## 02 - [WHAT A STORY IS](../content/plan/2-0-whatAStoryIs.md)
 
-## 03 - [ETHICS & ACCURACY](/plan/3-0-ethicsAndAccurary)
+2.1 [Story Goals](../content/plan/2-1-storyGoals.md)
+2.2 [Elements of a Story](../content/plan/2-2-elementsOfAStory.md)
 
-3.1 [Ethics = Informed Consent](/plan/3-1-ethicsEqualsInformedConsent)
-3.2 [Accuracy](/plan/3-2-accuracy)
+## 03 - [ETHICS & ACCURACY](../content/plan/3-0-ethicsAndAccurary.md)
 
-## 04 - [TOOLS](/plan/4-0-tools)
+3.1 [Ethics = Informed Consent](../content/plan/3-1-ethicsEqualsInformedConsent.md)
+3.2 [Accuracy](../content/plan/3-2-accuracy.md)
 
-4.1 [Learning your Tools](/plan/4-1-learningYourTools)
-4.2 [Maintaining your Equipment](/plan/4-2-maintainingYourEquipment)
+## 04 - [TOOLS](../content/plan/4-0-tools.md)
+
+4.1 [Learning your Tools](../content/plan/4-1-learningYourTools.md)
+4.2 [Maintaining your Equipment](../content/plan/4-2-maintainingYourEquipment.md)
