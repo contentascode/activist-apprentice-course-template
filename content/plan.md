@@ -23,7 +23,11 @@ Giving yourself a firm understanding of these core principles will make the stor
 
 2.2 - [Elements of a Story](../content/plan/2-2-elementsOfAStory.md)
 
-### 03 - [ETHICS & ACCURACY](../content/plan/3-0-ethicsAndAccurary.md)
+2.3 - [Goals inform Questions](../content/plan/2-3-goalsInformQuestions.md)
+
+2.4 - [Demonstration of Questions](../content/plan/2-3-demonstrationOfQuestions.md)
+
+### 03 - [ETHICS & ACCURACY](../content/plan/3-0-ethicsAndAccuracy.md)
 
 3.1 - [Ethics = Informed Consent](../content/plan/3-1-ethicsEqualsInformedConsent.md)
 
