@@ -3,8 +3,7 @@ layout: index.pug
 ---
 ## 2.2 ELEMENTS OF A STORY
 
-# THE FIVE W’S
-#(AND AN H)
+# THE FIVE W’S (AND AN H)
 ---
 
 **WHO** is it about?
