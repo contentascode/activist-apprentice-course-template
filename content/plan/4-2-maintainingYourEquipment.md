@@ -1,7 +1,7 @@
 ---
 layout: index.pug
 ---
-## 4.2 Maintaining your Equipment
+## 4.2 MAINTAINING YOUR EQUIPMENT
 
 Learning your equipment is not enough. You must perform basic maintenance, otherwise minor problems such as a dead battery may create a big risk.
 

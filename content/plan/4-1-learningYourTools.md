@@ -14,7 +14,7 @@ You must have a plan for your production to avoid unnecessary risk. You may also
 ### WHAT DO YOUR TOOLS DO WELL?
 - Let your tools assist your story.
 - Trying to record a story with the wrong tool is a wasted risk.
- - For example, you can’t record events at night if you don’t have a camera that can record in low-light or you can find a portable light source.
+  - For example, you can’t record events at night if you don’t have a camera that can record in low-light or you can find a portable light source.
 
 ### PRACTICE WITH YOUR TOOLS
 - How to turn it on and off quickly.
