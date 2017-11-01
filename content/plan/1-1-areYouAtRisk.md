@@ -1,5 +1,4 @@
 ## 1.1 ARE YOU AT RISK?
-------
 
 ### Are you living in a dictatorship?
 
@@ -7,7 +6,7 @@
 
 ### Are police unresponsive to the concerns of citizens?
 
----------------------------------------
+---
 
 If your answers to any of these questions is Yes then you’re likely to be at risk. Be mindful of the chances you might be taking with your life and as well as others’ lives.
 
