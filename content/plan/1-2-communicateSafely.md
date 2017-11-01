@@ -25,7 +25,7 @@ http://www.ubuntu.com/download/ubuntu/download
 
 Each phone has a unique identity. Unless you obtain an anonymous phone, nothing you say is private. To communicate privately, make calls only between anonymous phones.  
 
-A measure of security is possible over VOIP clients like Skype but is by no means 100% secure.
+A measure of security is possible over VOIP clients like **Skype** but is by no means 100% secure.
 
 ## SMS
 
