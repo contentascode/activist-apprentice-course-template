@@ -37,7 +37,7 @@ For example, “X” could mean you’re in danger, and “Z” could mean you�
 
 It’s up to you, however, to figure out a system that is easy for you and your contacts to remember.
 
-There are third party software solutions for secure texting, but they’re not as easy to control as a personal SMS representative system. You might use **SMS 007** , **TigerText**, **TextSecure**, **CryptoSMS** to text securely. (This requires Java support on your phone.)
+There are third party software solutions for secure texting, but they’re not as easy to control as a personal SMS representative system. You might use **SMS 007**, **TigerText**, **TextSecure**, **CryptoSMS** to text securely. (This requires Java support on your phone.)
 
 ## EMAIL
 
