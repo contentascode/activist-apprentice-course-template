@@ -9,11 +9,10 @@ media. You should be completely comfortable with these concepts and ideas before
 
 Giving yourself a firm understanding of these core principles will make the story you’re telling easier to understand as well as keep you safe.
 
-## 01 - [PLAN FOR SAFETY](../content/plan/1-0-planForSafety.md)
-
-1.1. [Are you at Risk?](/plan/1-1-areYouAtRisk)
-1.2. [Communicate Safely](/plan/1-2-communicateSafely)
-1.3. [Traveling Safely](/plan/1-3-travelingSafely)
+## 01. [PLAN FOR SAFETY](../content/plan/1-0-planForSafety.md)
+⋅⋅1. [Are you at Risk?](/plan/1-1-areYouAtRisk)
+⋅⋅2. [Communicate Safely](/plan/1-2-communicateSafely)
+..3. [Traveling Safely](/plan/1-3-travelingSafely)
 
 ## 02 - [WHAT A STORY IS](/plan/2-0-whatAStoryIs)
 
