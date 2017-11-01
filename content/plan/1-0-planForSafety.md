@@ -2,7 +2,7 @@
 layout: index.pug
 ---
 
-## Chapter 01
+## CHAPTER 01
 
 # PLAN FOR SAFETY
 
