@@ -25,7 +25,7 @@ Giving yourself a firm understanding of these core principles will make the stor
 
 2.3 - [Goals inform Questions](../content/plan/2-3-goalsInformQuestions.md)
 
-2.4 - [Demonstration of Questions](../content/plan/2-3-demonstrationOfQuestions.md)
+2.4 - [Demonstration of Questions](../content/plan/2-4-demonstrationOfQuestions.md)
 
 ### 03 - [ETHICS & ACCURACY](../content/plan/3-0-ethicsAndAccuracy.md)
 
