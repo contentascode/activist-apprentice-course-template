@@ -13,8 +13,6 @@ metadata:
       package: ''
 plugins:
 
-  - metalsmith-debug: {}
-
   - metalsmith-env:
       variables:
         CI: false
@@ -43,9 +41,7 @@ plugins:
 
       # Process .
       patterns:
-        - categories/**/*.md
-        - methods/**/*.md
-        - index.guide.md
+        - index.md
 
   # Deal with top level frontmatter.
   # - metalsmith-matters: true
@@ -57,11 +53,12 @@ plugins:
 
   # Load activities as a collection
   - metalsmith-dynamic-collections:
-      chapters: ':name/*.md'
-      pages: ':name.md'
+      index: 'index.md'
+      pages: ':page.md'
+      chapter_index: ':chapter/index.md'
+      chapters: ':chapter/:section.md'
 
   - metalsmith-debug: {}
-
 
   # Copy client side assets
   - metalsmith-assets-improved:
@@ -116,14 +113,31 @@ plugins:
 
   # Add metadata
   - metalsmith-filemetadata:
+    - pattern: "index.md"
+      preserve: 'true'
+      metadata:
+        layout: index.pug
+    - pattern: "*/index.md"
+      preserve: 'true'
+      metadata:
+        layout: chapter.pug
     - pattern: "*/*.md"
       preserve: 'true'
       metadata:
         layout: page.pug
-    - pattern: "*/index.md"
-      preserve: 'true'
-      metadata:
-        layout: none.pug
+
+  # Copy raw markdown
+  - metalsmith-metacopy:
+      file:
+      - patterns: "*/index.md"
+        src: contents
+        dest: raw
+
+  # Copy file name metadata
+  - metalsmith-metacopy:
+      file:
+      - src: paths.name
+        dest: name
 
 
   # Copy source markdown file link
@@ -173,29 +187,34 @@ plugins:
 
   # Interpret Markdown with Pandoc
   - metalsmith-pandoc:
-      pattern: "**/index.guide.md"
-      from: markdown_github+definition_lists+raw_html+markdown_in_html_blocks+link_attributes+header_attributes+footnotes+superscript+subscript
-      args: ['--standalone', '--table-of-contents', '--toc-depth=2', '-V toc-title:"Table of Contents"', '--template=/Users/jun/.content/packages/safetag-toolkit/code/template.markdown']
-
-  - metalsmith-pandoc:
       pattern: "**/*.md"
       from: markdown_github+definition_lists+raw_html+markdown_in_html_blocks+link_attributes+header_attributes+footnotes+superscript+subscript
 
   # - metalsmith-markdown:
   #     gfm: true
 
+  - metalsmith-metacopy:
+      file:
+      - pattern: "*/*.md"
+        src: paths.dir
+        dest: dir
+
   - metalsmith-permalinks:
       relative: true
+      # pattern: ":name"
       linksets:
-      - match:
-          collection: posts
-        pattern: blog/:datebasename
-      - match:
-          collection: lessons
-        pattern: ":dir/:title"
-      - match:
-          collection: activities
-        pattern: ":dir/:title"
+        - match:
+            collection: index
+          pattern: "."
+        - match:
+            collection: pages
+          pattern: ":page"
+        - match:
+            collection: chapter_index
+          pattern: ":chapter"
+        - match:
+            collection: chapters
+          pattern: ":chapter/:section"
 
   # Wrap rendered file in html templates.
   - metalsmith-layouts:
@@ -204,4 +223,4 @@ plugins:
       directory: code/templates
       includes: includes
       default: none.pug
-      # cache: true
+      cache: false

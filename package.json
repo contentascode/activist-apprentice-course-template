@@ -12,10 +12,11 @@
   "dependencies": {
     "filter.js": "github:perfectwebteam/filter.js",
     "handlebars": "^4.0.10",
+    "jstransformer-markdown-it": "^2.0.0",
     "lodash": "^4.17.4",
     "metalsmith-assets-improved": "github:contentascode/metalsmith-assets-improved#release",
     "metalsmith-debug": "^1.1.0",
-    "metalsmith-dynamic-collections": "^0.0.1",
+    "metalsmith-dynamic-collections": "^0.0.2",
     "metalsmith-env": "^2.0.0",
     "metalsmith-filemetadata": "^1.0.0",
     "metalsmith-ignore": "^0.1.2",

@@ -1,0 +1,5 @@
+ul
+  each section, id in chapters[chapter].children
+    unless section[0].paths.name == 'index'
+      li 
+        a(href='../' + section[0].path)= section[0].title 

@@ -1,10 +1,7 @@
 each chapter in chapters
-  h3= chapter.name
-  each index in chapter
-    if index.paths.name == 'index'
-      != index.contents
+  h3= chapter.index.name
   ul
-    each lesson, id in chapter
-      unless lesson.paths.name == 'index'
+    each section, id in chapter
+      unless section[0].paths.name == 'index'
         li 
-          a(href=lesson.path)= lesson.title 
+          a(href=section[0].path)= section[0].title 
