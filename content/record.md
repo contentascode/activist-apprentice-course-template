@@ -6,15 +6,11 @@ layout: index.pug
 
 You understand the security risks you might be taking, you know how to construct a story, you know the ethics and you know the tools. Before we can apply these concepts out in the real world, however, we need to learn how to record a story.
 
-### 05 - [PLAN FOR SAFETY](../content/record/5-0-recordingSafely.md)
-
-### 05 - [Title](../content/record/5-0-recordingSafely.md)
 
 5.1 - [Subject Security](../content/record/5-1-subjectSecurity.md)
 
 5.2 - [Personal Security](../content/record/5-2-personalSecurity.md)
 
-### 06 - [TItle](../content/record/6-0-visualStorytelling.md)
 
 6.1 - [Decide Your Shot](../content/record/6-1-decideYourShot.md)
 
