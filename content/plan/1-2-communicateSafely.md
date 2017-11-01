@@ -61,11 +61,7 @@ You can also use the OTR setting in the chat client provided with Gmail: Setting
 
 ## WEB BROWSER
 
----
-
 # The only way you are secure is if you trust your computer and know it’s software isn't compromised.
-
----
 
 ### SSL Certificates Incorrectly installed
 
@@ -79,3 +75,15 @@ You can also use the OTR setting in the chat client provided with Gmail: Setting
 **example 1:** I use webmail over HTTPS, webmail company complies with government request and hands over access to my account.
 
 **example 2:** I use webmail, the totalitarian regime where I live hacks my webmail account password or the password of someone I emailed and extracts my information.
+
+### Compromised networks
+
+**example 1:** You use a computer at an Internet cafe, the system administrator adds his own server to the web browser's trusted authorities list and pushes a SSL certificate for all websites. As your information passes through the transparent network proxy, the information from your webmail provider is decoded and re-encoded without you ever knowing - you get a green security lock and no warnings, in fact if you check the certificate it says everything is great. In the meantime, the administrator is copying and reading everything that you do.
+
+**Best Practices:**
+
+Nothing is foolproof, but by installing the latest version of **Firefox** on a computer you trust you’ll be much less susceptible to monitoring.
+
+If you are prompted to give a security exception or there is an error or x on the https or lock icon beware!
+
+Be sure to always use HTTPS in *“Settings/General/Browser Connection.*
