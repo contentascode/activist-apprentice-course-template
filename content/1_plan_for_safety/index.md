@@ -1,10 +1,4 @@
----
-layout: index.pug
----
-
-## Chapter 01
-
-# PLAN FOR SAFETY
+# Plan for safety
 
 *"Tell the truth and run."*
 

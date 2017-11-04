@@ -1,0 +1,10 @@
+each chapter in chapters
+  h3= chapter.name
+  each index in chapter
+    if index.paths.name == 'index'
+      != index.contents
+  ul
+    each lesson, id in chapter
+      unless lesson.paths.name == 'index'
+        li 
+          a(href=lesson.path)= lesson.title 

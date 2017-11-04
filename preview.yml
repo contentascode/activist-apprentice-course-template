@@ -57,9 +57,8 @@ plugins:
 
   # Load activities as a collection
   - metalsmith-dynamic-collections:
-      lessons: lessons/*.md
-      activities: activities/*.md
-
+      chapters: ':name/*.md'
+      pages: ':name.md'
 
   - metalsmith-debug: {}
 
@@ -104,10 +103,10 @@ plugins:
       src: node_modules/filter.js/examples/data
       dest: ./data
 
-  - metalsmith-assets-improved:
-      replace: old
-      src: content/lessons/images
-      dest: images
+  # - metalsmith-assets-improved:
+  #     replace: old
+  #     src: content/lessons/images
+  #     dest: images
 
   # - metalsmith-assets-improved:
   #     replace: old
@@ -117,14 +116,14 @@ plugins:
 
   # Add metadata
   - metalsmith-filemetadata:
-    - pattern: "lessons/*.md"
+    - pattern: "*/*.md"
       preserve: 'true'
       metadata:
-        layout: lesson.pug
-    - pattern: "activities/*.md"
+        layout: page.pug
+    - pattern: "*/index.md"
       preserve: 'true'
       metadata:
-        layout: activity.pug
+        layout: none.pug
 
 
   # Copy source markdown file link
@@ -204,5 +203,5 @@ plugins:
       pattern: "**/*.html"
       directory: code/templates
       includes: includes
-      default: page.pug
+      default: none.pug
       # cache: true

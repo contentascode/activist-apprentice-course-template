@@ -1,5 +1,5 @@
 ---
-layout: index.pug
+title: Are you at risk?
 ---
 
 ## 1.1 ARE YOU AT RISK?
