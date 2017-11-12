@@ -2,8 +2,6 @@
 title: Travelling safely
 ---
 
-## 1.3 TRAVELING SAFELY
-
 Bad choices are the most common risk. These rules will help you avoid bad choices:
 
 ---

@@ -1,4 +1,6 @@
-# Are you at risk?
+---
+title: Are you at risk?
+---
 
 > ### Are you living in a dictatorship?
 

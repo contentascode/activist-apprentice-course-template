@@ -2,8 +2,6 @@
 title: Communicate Safely
 ---
 
-## 1.2 COMMUNICATE SAFELY
-
 Whether you are doing reporting, documenting your friends, or promoting a political movement, you may be at risk from electronic observation. Technical or electronic safety depends on your communications. You should observe proper security practices in all forms of electronic communication.
 
 ---
