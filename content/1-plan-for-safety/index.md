@@ -1,4 +1,6 @@
-# Plan for safety
+## CHAPTER 01
+
+# PLAN FOR SAFETY
 
 *"Tell the truth and run."*
 
