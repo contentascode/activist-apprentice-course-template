@@ -18,4 +18,4 @@ If you’re reading this guide as a PDF on a computer or digital device, text th
 
 [http://www.mozilla.com/](http://www.mozilla.com/)
 
-You can follow these links to learn more, but be mindful about following them on unsafe networks. Some of these sites may flag you for security violations. Follow them only on safe and trusted networks.
+You can follow these links to learn more, but be mindful about following them on unsafe networks. Some of these sites may flag you for security violations. Follow them only on safe and trusted networks. 
