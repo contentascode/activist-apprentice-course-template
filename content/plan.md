@@ -1,7 +1,3 @@
----
-layout: index.pug
----
-
 # Plan Your Story
 
 To get you started, we’ll review four important steps to prepare yourself to go out and produce

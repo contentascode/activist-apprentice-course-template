@@ -1,7 +1,3 @@
----
-layout: index.pug
----
-
 # RECORD YOUR STORY
 
 You understand the security risks you might be taking, you know how to construct a story, you know the ethics and you know the tools. Before we can apply these concepts out in the real world, however, we need to learn how to record a story.
