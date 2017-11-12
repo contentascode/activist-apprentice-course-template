@@ -16,7 +16,7 @@
     "lodash": "^4.17.4",
     "metalsmith-assets-improved": "github:contentascode/metalsmith-assets-improved#release",
     "metalsmith-debug": "^1.1.0",
-    "metalsmith-dynamic-collections": "^0.0.2",
+    "metalsmith-dynamic-collections": "^0.1.0",
     "metalsmith-env": "^2.0.0",
     "metalsmith-filemetadata": "^1.0.0",
     "metalsmith-ignore": "^0.1.2",
