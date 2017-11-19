@@ -3,6 +3,10 @@
   "version": "0.1.2",
   "description": "Activist Apprentice - Course Template",
   "main": "content.yml",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smallworldnews/activist-apprentice-course-template.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "postversion": "git push --follow-tags"
