@@ -5,7 +5,7 @@ frontmatter: true
 metadata:
   site:
     title: Activist Apprentice
-    baseurl: '/@apprentice'
+    baseurl: '/@apprentice/preview'
     code:
       current_branch: master
       base: 'https://github.com/'
