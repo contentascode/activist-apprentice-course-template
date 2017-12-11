@@ -5,3 +5,5 @@
 ---
 packages:
   'activist-apprentice-course-template': activist-apprentice-course-template@^0.1
+templates:
+  'course': activist-apprentice-course-template@^0.1

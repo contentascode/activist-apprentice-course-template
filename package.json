@@ -5,6 +5,10 @@
   "bin": {
     "apprentice": "../../../bin/content",
     "apprentice-init": "../../../bin/content-init",
+    "apprentice-new": "../../../bin/content-new",
+    "apprentice-load": "../../../bin/content-load",
+    "apprentice-save": "../../../bin/content-save",
+    "apprentice-config": "../../../bin/content-config",
     "apprentice-link": "../../../bin/content-link",
     "apprentice-start": "../../../bin/content-start",
     "apprentice-pkgpath": "./package.json"

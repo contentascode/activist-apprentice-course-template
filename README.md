@@ -21,15 +21,15 @@ A quick walk through...
 
 Prerequisites:
  - [node v6](https://nodejs.org/en/)
- - npm v5.3.0
+ - npm v5.6.0
    -  `npm i -g npm`
  - docsmith v0.6.0:
-   -  `npm i -g docsmith`
+   -  `npm i -g docsmith@beta`
  - pandoc 1.19
    - `brew install pandoc`
    - `apt-get install pandoc`
 
-You can now install safetag with:
+You can now install the CLI with:
 ```
 npm i -g activist-apprentice
 ```
