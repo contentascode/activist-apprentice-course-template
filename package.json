@@ -3,14 +3,14 @@
   "version": "0.0.4",
   "description": "Activist Apprentice",
   "bin": {
-    "apprentice": "../../../bin/content",
-    "apprentice-init": "../../../bin/content-init",
-    "apprentice-new": "../../../bin/content-new",
-    "apprentice-load": "../../../bin/content-load",
-    "apprentice-save": "../../../bin/content-save",
-    "apprentice-config": "../../../bin/content-config",
-    "apprentice-link": "../../../bin/content-link",
-    "apprentice-start": "../../../bin/content-start",
+    "apprentice": "../../../lib/node_modules/docsmith/lib/docsmith.js",
+    "apprentice-init": "../../../lib/node_modules/docsmith/lib/docsmith-init.js",
+    "apprentice-new": "../../../lib/node_modules/docsmith/lib/docsmith-new.js",
+    "apprentice-load": "../../../lib/node_modules/docsmith/lib/docsmith-load.js",
+    "apprentice-save": "../../../lib/node_modules/docsmith/lib/docsmith-save.js",
+    "apprentice-config": "../../../lib/node_modules/docsmith/lib/docsmith-config.js",
+    "apprentice-link": "../../../lib/node_modules/docsmith/lib/docsmith-link.js",
+    "apprentice-start": "../../../lib/node_modules/docsmith/lib/docsmith-start.js",
     "apprentice-pkgpath": "./package.json"
   },
   "scripts": {
