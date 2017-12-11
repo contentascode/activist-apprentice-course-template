@@ -5,7 +5,7 @@
   "main": "content.yml",
   "repository": {
     "type": "git",
-    "url": "https://github.com/smallworldnews/activist-apprentice-course-template.git"
+    "url": "https://gitlab.com/smallworldnews/activist-apprentice-course-template.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
