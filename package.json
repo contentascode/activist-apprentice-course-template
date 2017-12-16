@@ -1,11 +1,11 @@
 {
   "name": "activist-apprentice-course-template",
-  "version": "0.1.7",
+  "version": "0.1.9",
   "description": "Activist Apprentice - Course Template",
   "main": "content.yml",
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/smallworldnews/activist-apprentice-course-template.git"
+    "url": "https://gitlab.com/contentascode/activist-apprentice-course-template.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
