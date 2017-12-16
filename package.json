@@ -37,6 +37,7 @@
     "metalsmith-permalinks": "^0.5.0",
     "metalsmith-search-meta": "github:iilab/metalsmith-search-meta",
     "metalsmith-serve": "^0.0.7",
+    "metalsmith-title": "github:mayo/metalsmith-title",
     "metalsmith-transclude": "^0.3.4",
     "metalsmith-transclude-transform": "^0.1.0",
     "metalsmith-watch": "^1.0.3",

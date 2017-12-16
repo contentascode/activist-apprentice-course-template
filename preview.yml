@@ -58,6 +58,9 @@ plugins:
       chapter_index: ':chapter/index.md'
       chapters: ':chapter/:section.md'
 
+  - metalsmith-title:
+      remove: true
+
   - metalsmith-debug: {}
 
   # Copy client side assets
