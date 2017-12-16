@@ -9,19 +9,19 @@ Giving yourself a firm understanding of these core principles will make the stor
 
 1.2 - [Are you at Risk?](1-plan-for-safety/1-are-you-at-risk)
 
-1.3 - [Communicate Safely](../content/plan/1-2-communicateSafely.md)
+1.3 - [Communicate Safely](1-plan-for-safety/2-communicate-safely.md)
 
-1.4 - [Traveling Safely](../content/plan/1-3-travelingSafely.md)
+1.4 - [Traveling Safely](1-plan-for-safety/3-traveling-safely.md)
 
-### 02 - [WHAT A STORY IS](../content/plan/2-0-whatAStoryIs.md)
+### 02 - [WHAT A STORY IS](2-what-a-story-is)
 
-2.1 - [Story Goals](../content/plan/2-1-storyGoals.md)
+2.1 - [Story Goals](2-what-a-story-is/1-story-goals.md)
 
-2.2 - [Elements of a Story](../content/plan/2-2-elementsOfAStory.md)
+2.2 - [Elements of a Story](2-what-a-story-is/2-elements-of-a-story.md)
 
-2.3 - [Goals inform Questions](../content/plan/2-3-goalsInformQuestions.md)
+2.3 - [Goals inform Questions](2-what-a-story-is/3-goals-inform-questions.md)
 
-2.4 - [Demonstration of Questions](../content/plan/2-4-demonstrationOfQuestions.md)
+2.4 - [Demonstration of Questions](2-what-a-story-is/4-demonstration-of-questions.md)
 
 ### 03 - [ETHICS & ACCURACY](../content/plan/3-0-ethicsAndAccuracy.md)
 
