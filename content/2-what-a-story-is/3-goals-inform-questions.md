@@ -1,26 +1,23 @@
----
-layout: index.pug
----
-## 2.3 GOALS INFORM QUESTIONS
+# Goals inform questions
 
 ```
 Three Images Needed
 ```
 
-### 1. WHO
+## 1. WHO
 The people or person your story is about.
 
-### 2. WHAT
+## 2. WHAT
 The events that made up your story.
 
-### 3. WHERE
+## 3. WHERE
 The location of your story.
 
-### 4. WHEN
+## 4. WHEN
 Time your story took place.
 
-### 5. WHY
+## 5. WHY
 The reasons behind your story.
 
-### 6. HOW
+## 6. HOW
 The specifics of how your story happened.

@@ -1,26 +1,23 @@
----
-layout: index.pug
----
-## 2.4 DEMONSTRATION OF QUESTIONS
+# Demonstration of Questions
 
 ```
 One Image Needed
 ```
 
-### 1. WHO
+## 1. WHO
 The female protester addressing the camera is **who**.
 
-### 2. WHAT
+## 2. WHAT
 A car destroyed by protesters is **what**.
 
-### 3. WHERE
+## 3. WHERE
 The mosque and unique landmarks show us **where**.
 
-### 4. WHEN
+## 4. WHEN
 The specific day cannot be determined. The lighting tells us **when**.
 
-### 5. WHY
+## 5. WHY
 The female protester explains **why**.
 
-### 6. HOW
+## 6. HOW
 The female protester explains **how**. The other protesters show us **how**.

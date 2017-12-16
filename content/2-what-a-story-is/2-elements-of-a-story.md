@@ -1,10 +1,6 @@
----
-title: Elements of a story
----
+# Elements of a story
 
-## 2.2 ELEMENTS OF A STORY
-
-# THE FIVE W’S (AND AN H)
+## THE FIVE W’S (AND AN H)
 
 **WHO** is it about?
 

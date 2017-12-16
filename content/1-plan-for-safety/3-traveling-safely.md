@@ -1,6 +1,4 @@
----
-title: Travelling safely
----
+# Travelling safely
 
 Bad choices are the most common risk. These rules will help you avoid bad choices:
 
