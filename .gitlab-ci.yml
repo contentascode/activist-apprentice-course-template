@@ -28,9 +28,10 @@ publish:
   - cd $CI_PROJECT_DIR/workspace
   - apprentice start --clean --no-watch --baseurl /activist-apprentice/@apprentice/preview
   - cd ~/.content/build/@apprentice/mobile
+  - more package.json
+  - more app.json
   - npm install
   - npm install -g exp
-  - more app.json
   - exp login -u $EXP_LOGIN -p $EXP_PASS
   - exp publish --non-interactive
   - cd ~
