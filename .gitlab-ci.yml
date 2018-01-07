@@ -25,6 +25,7 @@ publish:
   # Build website
   - cd $CI_PROJECT_DIR/workspace
   - apprentice start --clean --no-watch --baseurl /activist-apprentice/@apprentice/preview
+  - cd ~/.content/build/@apprentice/mobile
   - exp login -u $EXP_LOGIN -p $EXP_PASS
   - exp publish --non-interactive
 
