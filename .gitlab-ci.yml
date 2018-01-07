@@ -22,16 +22,15 @@ publish:
   - cd ~/.content/packages/activist-apprentice-course-template
   - npm install
 
+
+  script:
   # Build website
   - cd $CI_PROJECT_DIR/workspace
   - apprentice start --clean --no-watch --baseurl /activist-apprentice/@apprentice/preview
   - cd ~/.content/build/@apprentice/mobile
+  - npm install
   - exp login -u $EXP_LOGIN -p $EXP_PASS
   - exp publish --non-interactive
-
-  script:
-  # Build website
-  - apprentice start --clean --no-watch --baseurl /activist-apprentice/@apprentice/preview
   - cp -R $HOME/.content/build public
   - ls -la public
 
@@ -40,4 +39,4 @@ publish:
     - public
 
   only:
-    - tags
+    - master

@@ -37,6 +37,7 @@ script:
   - cd $TRAVIS_BUILD_DIR/workspace
   - apprentice start --clean --no-watch --baseurl /activist-apprentice/@apprentice/preview
   - cd ~/.content/build/@apprentice/mobile
+  - npm install
   - exp login -u $EXP_LOGIN -p $EXP_PASS
   - exp publish --non-interactive
 
