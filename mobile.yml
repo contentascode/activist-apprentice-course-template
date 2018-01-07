@@ -82,7 +82,12 @@ plugins:
         # - 'content'
         - 'node_modules'
         - '*.git'
-        - 'package.json'
+
+  # Copy content package package.json
+  - metalsmith-assets-copy:
+      replace: all
+      src: package.json
+      dest: ../package.json
 
   # Copy node_modules to make contentascode-mobile npm start work.
   # This should instead use npm install.

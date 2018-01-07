@@ -20,7 +20,7 @@
     "jstransformer-markdown-it": "^2.0.0",
     "lodash": "^4.17.4",
     "metalsmith-assets-copy": "^0.0.2",
-    "metalsmith-contentascode-mobile": "^0.0.2",
+    "metalsmith-contentascode-mobile": "^0.0.4",
     "metalsmith-debug": "^1.1.0",
     "metalsmith-dynamic-collections": "^0.1.0",
     "metalsmith-env": "^2.0.0",
