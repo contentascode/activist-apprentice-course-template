@@ -1,21 +1,18 @@
----
-title: Are you at risk?
----
+# Are you at risk?
 
-Are you ?
+> ## Are you living in a dictatorship?
+>
+> ## Is corruption a problem?
+>
+> ## Are police unresponsive to the concerns of citizens?
 
-> ### Are you living in a dictatorship?
-
-> ### Is corruption a problem?
-
-> ### Are police unresponsive to the concerns of citizens?
 ---
 
-![](images/1_introduction.png)
+![](/images/1_introduction.png)
 
 If your answers to any of these questions is Yes then you’re likely to be at risk. Be mindful of the chances you might be taking with your life and as well as others’ lives.
 
----------------------------------------
+----
 
 ### TYPES OF RISK
 

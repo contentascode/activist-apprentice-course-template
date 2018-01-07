@@ -33,19 +33,24 @@
     "metalsmith-matters": "^1.2.0",
     "metalsmith-metacopy": "github:contentascode/metalsmith-metacopy",
     "metalsmith-migrate-safetag": "^0.1.7",
+    "metalsmith-packagejson": "^1.1.0",
     "metalsmith-packages": "^0.1.0",
     "metalsmith-pandoc": "^0.2.3",
     "metalsmith-paths": "^3.0.1",
     "metalsmith-permalinks": "^0.5.0",
+    "metalsmith-remark-lint": "0.0.1",
     "metalsmith-search-meta": "github:iilab/metalsmith-search-meta",
     "metalsmith-serve": "^0.0.7",
-    "metalsmith-title": "github:mayo/metalsmith-title",
+    "metalsmith-title": "0.0.1",
     "metalsmith-transclude": "^0.3.4",
     "metalsmith-transclude-transform": "^0.1.0",
     "metalsmith-watch": "^1.0.3",
     "metalsmith-writemetadata": "github:contentascode/metalsmith-writemetadata",
     "metalsmith-yaml": "github:astralfrontier/metalsmith-yaml",
     "pug": "^2.0.0-rc.2",
-    "sortablejs": "^1.6.0"
+    "remark-frontmatter": "^1.2.0",
+    "remark-preset-lint-markdown-style-guide": "^2.1.1",
+    "sortablejs": "^1.6.0",
+    "vfile-reporter-pretty": "^1.0.1"
   }
 }

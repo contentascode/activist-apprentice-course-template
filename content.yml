@@ -13,10 +13,12 @@ packages:
 
 # This will deploy the workspaces when using `safetag init`.
 workspace:
+  '@apprentice/preview':
+    start: preview.yml
+    preview: web
   '@apprentice/mobile':
     start: mobile.yml
-  # '@apprentice/preview':
-  #   start: preview.yml
+    preview: mobile
   #   # can be used with metalsmith-symlink to override activities folder with migration folder
   #   # packages:
   #   #   activities: activities
