@@ -30,6 +30,7 @@ publish:
   - cd ~/.content/build/@apprentice/mobile
   - npm install
   - npm install -g exp
+  - more app.json
   - exp login -u $EXP_LOGIN -p $EXP_PASS
   - exp publish --non-interactive
   - cd ~
