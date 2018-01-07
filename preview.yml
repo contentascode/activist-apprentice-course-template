@@ -24,6 +24,8 @@ plugins:
   - metalsmith-ignore:
     - "*.orig/*"
 
+  - metalsmith-remark-lint: {}
+
   # Add tags to activities based on their location in the taxonomy page ASTs.
   - metalsmith-markdown-taxonomy:
       pattern: 'categories/*.md'
@@ -64,51 +66,51 @@ plugins:
   - metalsmith-debug: {}
 
   # Copy client side assets
-  - metalsmith-assets-improved:
+  - metalsmith-assets-copy:
       replace: all
       src: code/assets
       dest: .
 
   # Add lodash
-  - metalsmith-assets-improved:
+  - metalsmith-assets-copy:
       replace: old
       src: node_modules/lodash/lodash.min.js
       dest: ./js/lodash.min.js
 
   # Add SortableJS
-  - metalsmith-assets-improved:
+  - metalsmith-assets-copy:
       replace: old
       src: node_modules/sortablejs/Sortable.min.js
       dest: ./js/sortable.min.js
 
   # Copy filter.js module. Using old version from previous project instead.
-  # - metalsmith-assets-improved:
+  # - metalsmith-assets-copy:
   #     replace: old
   #     src: node_modules/filter.js/dist
   #     dest: ./js
 
   # Copy js-yaml module
-  - metalsmith-assets-improved:
+  - metalsmith-assets-copy:
       replace: old
       src: node_modules/js-yaml/dist
       dest: ./js
 
   # Copy filter.js module example styles and jquery dependencies
-  - metalsmith-assets-improved:
+  - metalsmith-assets-copy:
       replace: old
       src: node_modules/filter.js/examples
       dest: ./filter.js
-  - metalsmith-assets-improved:
+  - metalsmith-assets-copy:
       replace: old
       src: node_modules/filter.js/examples/data
       dest: ./data
 
-  # - metalsmith-assets-improved:
+  # - metalsmith-assets-copy:
   #     replace: old
   #     src: content/lessons/images
   #     dest: images
 
-  # - metalsmith-assets-improved:
+  # - metalsmith-assets-copy:
   #     replace: old
   #     src: content/activities/images
   #     dest: .
