@@ -1,6 +1,5 @@
 ---
 source: content
-destination: content
 clean: true
 frontmatter: true
 metadata:
@@ -13,6 +12,8 @@ metadata:
       repo: 'contentascode/activist-apprentice-course-template'
       package: ''
 plugins:
+
+  - metalsmith-packagejson: {}
 
   - metalsmith-env:
       variables:
@@ -69,29 +70,31 @@ plugins:
   - metalsmith-assets-copy:
       replace: all
       src: code/assets
-      dest: ../code/assets
+      dest: code/assets
 
-  # Copy filter.js module example styles and jquery dependencies
+  # Copy mobile app structure
   - metalsmith-assets-copy:
-      replace: dir
+      replace: all
       src: node_modules/contentascode-mobile
-      dest: ../
+      dest: .
       except:
+        # TODO: Remove default lessons
+        # - 'content'
         - 'node_modules'
-        - '.git'
+        - '*.git'
+
+  # Copy node_modules to make contentascode-mobile npm start work.
+  # This should instead use npm install.
+  # - metalsmith-assets-copy:
+  #     replace: all
+  #     dereference: true
+  #     src: node_modules/
+  #     dest: ../node_modules
+  #     except:
+  #       - '*.git'
+  #       - 'contentascode-mobile'
 
   - metalsmith-debug: {}
-
-  # - metalsmith-assets-improved:
-  #     replace: old
-  #     src: content/lessons/images
-  #     dest: images
-
-  # - metalsmith-assets-improved:
-  #     replace: old
-  #     src: content/activities/images
-  #     dest: .
-
 
   # Add metadata
   - metalsmith-filemetadata:
@@ -209,3 +212,9 @@ plugins:
 
   - metalsmith-contentascode-mobile:
       pattern: "**/*.md"
+      destination: content
+      install: true
+      expo:
+        name: Activist Apprentice Course Template
+        slug: activist-apprentice-course-template
+        privacy: public
