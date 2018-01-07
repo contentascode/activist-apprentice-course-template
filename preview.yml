@@ -95,15 +95,15 @@ plugins:
       src: node_modules/js-yaml/dist
       dest: ./js
 
-  # Copy filter.js module example styles and jquery dependencies
-  - metalsmith-assets-copy:
-      replace: old
-      src: node_modules/filter.js/examples
-      dest: ./filter.js
-  - metalsmith-assets-copy:
-      replace: old
-      src: node_modules/filter.js/examples/data
-      dest: ./data
+  # # Copy filter.js module example styles and jquery dependencies
+  # - metalsmith-assets-copy:
+  #     replace: old
+  #     src: node_modules/filter.js/examples
+  #     dest: ./filter.js
+  # - metalsmith-assets-copy:
+  #     replace: old
+  #     src: node_modules/filter.js/examples/data
+  #     dest: ./data
 
   # - metalsmith-assets-copy:
   #     replace: old
