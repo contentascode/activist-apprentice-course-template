@@ -1,2 +1,64 @@
+# Used to trigger downstream rebuilds for
+# Commenting out for now, untill build of self contained content packages is templated.
+# script:
+#   - ./trigger-travis.sh contentascode activist-apprentice master $TOKEN
+
+language: node_js
+node_js:
+  - '8'
+os:
+- linux
+
+# Add ons to allow nodegit to compile
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - libstdc++-4.9-dev
+
+install:
+  - wget https://github.com/jgm/pandoc/releases/download/1.19.2.1/pandoc-1.19.2.1-1-amd64.deb
+  - sudo dpkg -i pandoc-1.19.2.1-1-amd64.deb
+  - npm i -g docsmith@beta
+  - npm i -g activist-apprentice
+  - npm i -g exp
 script:
-  - ./trigger-travis.sh contentascode activist-apprentice master $TOKEN
+  - mkdir workspace && cd workspace
+  - apprentice init --non-interactive
+  - apprentice config
+  # Manually template with current course
+  - rm -rf ~/.content/packages/activist-apprentice-course-template
+  - cp -R $CI_PROJECT_DIR ~/.content/packages/activist-apprentice-course-template
+  - cd ~/.content/packages/activist-apprentice-course-template
+  - npm install
+
+  # Build website
+  - cd $CI_PROJECT_DIR/workspace
+  - apprentice start --clean --no-watch --baseurl /activist-apprentice/@apprentice/preview
+  - exp login -u $EXP_LOGIN -p $EXP_PASS
+  - exp publish --non-interactive
+
+deploy:
+  - provider: pages
+    local_dir: /home/travis/.content/build
+    skip_cleanup: true
+    github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+    on:
+      branch: master
+      condition: $TRAVIS_OS_NAME = linux
+      node: '7'
+  - provider: pages
+    local_dir: /home/travis/.content/build
+    skip_cleanup: true
+    github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+    on:
+      tags: true
+      condition: $TRAVIS_OS_NAME = linux
+      node: '7'
+
+branches:
+  only:
+  - master
+  except:
+    - /^v[0-9]/
