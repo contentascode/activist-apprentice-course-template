@@ -82,6 +82,7 @@ plugins:
         # - 'content'
         - 'node_modules'
         - '*.git'
+        - '.expo'
 
   # Copy content package package.json
   - metalsmith-assets-copy:
