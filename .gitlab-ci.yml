@@ -1,0 +1,64 @@
+stages:
+  - build
+  - pages
+
+build:
+
+  stage: build
+
+  services:
+    - docker:dind
+
+  image: docker:git
+
+  before_script:
+    - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY
+
+  script:
+    - alias 'dockerize=git whatchanged HEAD^! | grep "Dockerfile\|package.json\|yarn.lock" >/dev/null'
+    - dockerize && docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY
+    - dockerize && docker build --cache-from $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_NAME -t "$CI_REGISTRY_IMAGE:$CI_COMMIT_REF_NAME" .
+    - dockerize && docker push $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_NAME
+    - dockerize || (echo "no need to build docker image" && exit 0)
+
+  only:
+    - tags
+
+pages:
+
+  stage: pages
+
+  image: $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_NAME
+
+  cache:
+    paths:
+    - node_modules/
+
+  before_script:
+  - mkdir workspace && cd workspace
+  - apprentice init --non-interactive
+  - apprentice config
+  # Manually template with current course
+  - rm -rf ~/.content/packages/activist-apprentice-course-template
+  - cp -R $CI_PROJECT_DIR ~/.content/packages/activist-apprentice-course-template
+  - cd ~/.content/packages/activist-apprentice-course-template
+  - npm install
+
+  # Build website
+  - cd $CI_PROJECT_DIR/workspace
+  - apprentice start --clean --no-watch --baseurl /activist-apprentice/@apprentice/preview
+  - exp login -u $EXP_LOGIN -p $EXP_PASS
+  - exp publish --non-interactive
+
+  script:
+  # Build website
+  - apprentice start --clean --no-watch --baseurl /activist-apprentice/@apprentice/preview
+  - cp -R $HOME/.content/build public
+  - ls -la public
+
+  artifacts:
+    paths:
+    - public
+
+  only:
+    - tags

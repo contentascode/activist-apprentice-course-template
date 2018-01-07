@@ -29,12 +29,12 @@ script:
   - apprentice config
   # Manually template with current course
   - rm -rf ~/.content/packages/activist-apprentice-course-template
-  - cp -R $CI_PROJECT_DIR ~/.content/packages/activist-apprentice-course-template
+  - cp -R $TRAVIS_BUILD_DIR ~/.content/packages/activist-apprentice-course-template
   - cd ~/.content/packages/activist-apprentice-course-template
   - npm install
 
   # Build website
-  - cd $CI_PROJECT_DIR/workspace
+  - cd $TRAVIS_BUILD_DIR/workspace
   - apprentice start --clean --no-watch --baseurl /activist-apprentice/@apprentice/preview
   - exp login -u $EXP_LOGIN -p $EXP_PASS
   - exp publish --non-interactive
