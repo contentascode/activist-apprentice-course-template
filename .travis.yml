@@ -30,8 +30,8 @@ script:
   # Manually template with current course
   - rm -rf ~/.content/packages/activist-apprentice-course-template
   - cp -R $TRAVIS_BUILD_DIR ~/.content/packages/activist-apprentice-course-template
-  - cd ~/.content/packages/activist-apprentice-course-template
-  - npm install
+  # - cd ~/.content/packages/activist-apprentice-course-template
+  # - npm install
 
   # Build website
   - cd $TRAVIS_BUILD_DIR/workspace
