@@ -2,33 +2,11 @@ stages:
   - build
   - pages
 
-build:
-
-  stage: build
-
-  services:
-    - docker:dind
-
-  image: docker:git
-
-  before_script:
-    - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY
-
-  script:
-    - alias 'dockerize=git whatchanged HEAD^! | grep "Dockerfile\|package.json\|yarn.lock" >/dev/null'
-    - dockerize && docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY
-    - dockerize && docker build --cache-from $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_NAME -t "$CI_REGISTRY_IMAGE:$CI_COMMIT_REF_NAME" .
-    - dockerize && docker push $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_NAME
-    - dockerize || (echo "no need to build docker image" && exit 0)
-
-  only:
-    - tags
-
-pages:
+publish:
 
   stage: pages
 
-  image: $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_NAME
+  image: registry.gitlab.com/contentascode/activist-apprentice:v0.0.9
 
   cache:
     paths:
