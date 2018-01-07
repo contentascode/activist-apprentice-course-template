@@ -19,8 +19,8 @@ publish:
   # Manually template with current course
   - rm -rf ~/.content/packages/activist-apprentice-course-template
   - cp -R $CI_PROJECT_DIR ~/.content/packages/activist-apprentice-course-template
-  # - cd ~/.content/packages/activist-apprentice-course-template
-  # - npm install
+  - cd ~/.content/packages/activist-apprentice-course-template
+  - npm install
 
 
   script:

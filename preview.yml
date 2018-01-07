@@ -16,6 +16,7 @@ plugins:
   - metalsmith-env:
       variables:
         CI: false
+        LINT_ERROR: true
 
   # - metalsmith-packages:
   #     key: packages
