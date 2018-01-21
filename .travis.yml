@@ -36,8 +36,10 @@ script:
   # Build website
   - cd $TRAVIS_BUILD_DIR/workspace
   - apprentice start --clean --no-watch --baseurl /activist-apprentice/@apprentice/preview preview
-  - apprentice start --clean --no-watch mobile
+  - DEBUG=metalsmith:contentascode_mobile apprentice start --clean --no-watch mobile
   - cd ~/.content/build/@apprentice/mobile
+  - more ~/.content/packages/activist-apprentice-course-template/mobile.yml
+  - more ~/.content/packages/activist-apprentice-course-template/mobile.yml
   - ls -la
   - exp login -u $EXP_LOGIN -p $EXP_PASS
   - exp publish --non-interactive
