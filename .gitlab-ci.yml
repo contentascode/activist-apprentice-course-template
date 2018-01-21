@@ -4,9 +4,9 @@ stages:
 
 publish:
 
-  stage: pages
+  stage: build
 
-  image: registry.gitlab.com/contentascode/activist-apprentice:v0.0.9
+  image: registry.gitlab.com/contentascode/activist-apprentice:v0.0.10
 
   cache:
     paths:
@@ -26,11 +26,12 @@ publish:
   script:
   # Build website
   - cd $CI_PROJECT_DIR/workspace
-  - apprentice start --clean --no-watch --baseurl /activist-apprentice/@apprentice/preview
+  - apprentice start --clean --no-watch --baseurl /activist-apprentice/@apprentice/preview preview
+  - apprentice start --clean --no-watch mobile
   - cd ~/.content/build/@apprentice/mobile
   - more package.json
   - more app.json
-  - npm install
+  # - npm install
   - npm install -g exp
   - exp login -u $EXP_LOGIN -p $EXP_PASS
   - exp publish --non-interactive
@@ -44,3 +45,15 @@ publish:
 
   only:
     - master
+
+pages:
+
+  stage: pages
+
+  script:
+  - echo "Deploying to gitlab pages"
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
