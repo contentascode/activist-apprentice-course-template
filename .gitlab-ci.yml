@@ -37,7 +37,7 @@ publish:
   - exp publish --non-interactive
   - cd ~
   - cp -R $HOME/.content/build/@apprentice/preview $CI_PROJECT_DIR/public
-  - ls -la public
+  - ls -la $CI_PROJECT_DIR/public
 
   artifacts:
     paths:
