@@ -26,7 +26,7 @@ publish:
   script:
   # Build website
   - cd $CI_PROJECT_DIR/workspace
-  - apprentice start --clean --no-watch --baseurl /activist-apprentice/@apprentice/preview preview
+  - apprentice start --clean --no-watch --baseurl /activist-apprentice preview
   - apprentice start --clean --no-watch mobile
   - cd ~/.content/build/@apprentice/mobile
   - more package.json
@@ -36,7 +36,7 @@ publish:
   - exp login -u $EXP_LOGIN -p $EXP_PASS
   - exp publish --non-interactive
   - cd ~
-  - cp -R $HOME/.content/build public
+  - cp -R $HOME/.content/build/@apprentice/preview $CI_PROJECT_DIR/public
   - ls -la public
 
   artifacts:
