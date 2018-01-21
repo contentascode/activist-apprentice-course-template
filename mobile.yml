@@ -221,6 +221,7 @@ plugins:
       pattern: "**/*.md"
       destination: content
       install: true
+      start: true
       expo:
         name: Activist Apprentice Course Template
         slug: activist-apprentice-course-template

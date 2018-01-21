@@ -44,7 +44,7 @@
     "metalsmith-title": "^0.0.1",
     "metalsmith-transclude": "^0.3.4",
     "metalsmith-transclude-transform": "^0.1.0",
-    "metalsmith-watch": "^1.0.3",
+    "metalsmith-watch": "github:contentascode/metalsmith-watch",
     "metalsmith-writemetadata": "github:contentascode/metalsmith-writemetadata",
     "metalsmith-yaml": "github:astralfrontier/metalsmith-yaml",
     "pug": "^2.0.0-rc.2",
