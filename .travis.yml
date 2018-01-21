@@ -38,6 +38,7 @@ script:
   - apprentice start --clean --no-watch --baseurl /activist-apprentice/@apprentice/preview preview
   - apprentice start --clean --no-watch mobile
   - cd ~/.content/build/@apprentice/mobile
+  - ls -la
   - exp login -u $EXP_LOGIN -p $EXP_PASS
   - exp publish --non-interactive
 
