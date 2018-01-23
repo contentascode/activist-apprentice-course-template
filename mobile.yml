@@ -223,6 +223,4 @@ plugins:
       install: true
       start: true
       expo:
-        name: Activist Apprentice Course Template
-        slug: activist-apprentice-course-template
-        privacy: public
+        privacy: unlisted
