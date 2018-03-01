@@ -1,6 +1,6 @@
 {
   "name": "activist-apprentice-course-template",
-  "version": "0.2.9",
+  "version": "0.2.10",
   "description": "Activist Apprentice - Course Template",
   "main": "content.yml",
   "repository": {
@@ -45,8 +45,7 @@
     "metalsmith-transclude": "^0.3.10",
     "metalsmith-transclude-transform": "^0.1.11",
     "metalsmith-watch": "github:contentascode/metalsmith-watch#7ca04e617f355623e44e9e85d1e1bf6906c1ab26",
-    "metalsmith-writemetadata":
-      "github:contentascode/metalsmith-writemetadata#edeb76770e93adf735de7da48fee399169370d21",
+    "metalsmith-writemetadata": "github:contentascode/metalsmith-writemetadata#edeb76770e93adf735de7da48fee399169370d21",
     "metalsmith-yaml": "github:astralfrontier/metalsmith-yaml#286404562212e749519faa0cb4f5db10e0a954e1",
     "pug": "^2.0.0-rc.2",
     "remark-frontmatter": "^1.2.0",
