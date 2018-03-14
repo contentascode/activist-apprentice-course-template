@@ -1,23 +1,68 @@
 [![pipeline status](https://gitlab.com/contentascode/activist-apprentice-course-template/badges/master/pipeline.svg)](https://gitlab.com/contentascode/activist-apprentice-course-template/commits/master)
 
-Scan the QR code with your phone using the [Expo app](https://expo.io/tools#client):
+# Activist Apprentice Course Template
 
-![](qr.png)
+The Activist Apprentice Course Template is a resource for Authors interested in putting their training materials / course curriculum into an app.
 
-# Safely & Securely Producing Media
+The Activist Apprentice project is connected to a larger ongoing project called [**Content as Code**](http://iilab.github.io/contentascode/).
 
-There are many great guides to help you securely send media files online. But we find they are mostly text-heavy instructions for dealing with technical or security concerns surrounding the posting of content online. In response, we’ve decided to create a guide combining this information with a clear visual walk through on producing high-quality media. Our primary goal is to not only teach you how to share your story with the world safely, but also help you clarify what that story is and communicate it more effectively.
+---
 
-This particular instance of the guide is being implemented as a fork of the the [**Content as Code**](https://github.com/iilab/contentascode) project from [iilab](http://iilab.org).
+This repo functions as a template for Authors looking to make App versions of their training materials for easier sharing in offline communities. The [content](https://gitlab.com/contentascode/activist-apprentice-course-template/tree/master/content) in this template repo is also the documentation on how to use it.
 
-## How the Guide works
+If you're curious to see how the app looks, it is available on [**Expo**](https://expo.io/). Scan the QR code below with your phone using the [Expo app](https://expo.io/tools#client) to explore the contents of it on your device:
 
-![](content/images/stop.svg)
+![](content/images/qrcode_AACTexpo.png)
 
-The guide is split up into three sections: [Plan Your Story](content/plan.md), [Record Your Story](content/record.md), and [Share Your Story](content/share,md). It is designed to instruct someone who has never taken a photo or shot video before through the entire process of telling a story with these media. It is also for anyone looking to review or reference specific parts of the process. Each section is designed so that you can skip ahead if you already understand it, or focus on that specific part.
+---
 
-If you’re reading this guide as a PDF on a computer or digital device, text that has a black box around it is a hyperlink to a website. For example:
+## [Content as Code](http://iilab.github.io/contentascode/)
 
-[http://www.mozilla.com/](http://www.mozilla.com/)
+[**iilab**](http://iilab.org/) started [**Content as Code**](https://github.com/iilab/contentascode) in 2016 to develop workflows and technology to improve content re-use and maintainability.
 
-You can follow these links to learn more, but be mindful about following them on unsafe networks. Some of these sites may flag you for security violations. Follow them only on safe and trusted networks.
+It aims to make content authoring and management benefit from software engineering collaboration best practices. With the stated [design goals](http://iilab.github.io/contentascode/approach/#design-goals) of:
+
+* Focused Writing
+* Localisation and translation
+* Low barrier to collaboration
+* Track changes and manage contributions
+* Content Reuse
+* Multiple publication channels
+
+---
+
+## Collaboration
+
+[Small World News](https://www.smallworldnews.com) and iilab agreed to collaborate together to add mobile app generation and the Course authoring command line client to Content as Code. Credit goes to [iilab](http://iilab.org/) for developing these particular tools and to iilab and the rest of the open source developers contributing to the wider code base.
+
+For specific details, please see our [License](content/0-introduction/1-license.md).
+
+---
+
+### Why do we need more Apps?
+
+Training materials are commonly shared as PDFs or made available as websites. PDFs are great because you can print physical copies, share the digital versions easily enough, and allow Authors to present information as they desire. Websites are nice because they are widely available, easily updated, and provide additional multimedia functionality.
+
+The value of having your course as an app is that it puts the content where Readers are spending a significant amount of their time already, their phones. Additionally, it allows them to get updates to this material the same way they are getting updates to their social media apps. We believe that by putting it side by side with these platforms it'll make it easier to engage with.
+
+Depending on the interest and demand for this project we are considering seeking additional funding to add functionality to support audio / video playback directly in courses, enable quizzes, and investigate how to incorporate a tool like this with messaging services like WhatsApp or Signal.
+
+In addition there are a few more high level reasons you might consider putting your curriculum/training materials into an app.
+
+## Offline Access
+
+When paired with [**Station**](https://www.getstation.org), Courses are able to be shared peer to peer among individuals in communities that have low bandwidth access or limited to access to App stores. Station provides the ability to send apps from one device to another device.
+
+## Version control simplifies revisions
+
+By utilizing tools originally designed for software Authors are able to revert/review previous versions of their content. This is critical for allowing Authors to track each other's edits and correct mistakes. The long term thinking here is that the more content that is written in this format, the easier it will be for different Authors to mix and share content with significantly less effort.
+
+## Push updates to Readers
+
+Websites are great for the amount of customization given to Authors, but when you update important content it's hard to bring readers back. Email updates and Tweets are good, but app updates require less effort from the Reader.
+
+----
+
+We recognize this is not going to be for everyone, and there are still a significant number of features that Authors would want before they would consider moving their content into a system like this.
+
+---
