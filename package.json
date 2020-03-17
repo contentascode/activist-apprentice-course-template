@@ -47,7 +47,7 @@
     "metalsmith-watch": "github:contentascode/metalsmith-watch#7ca04e617f355623e44e9e85d1e1bf6906c1ab26",
     "metalsmith-writemetadata": "github:contentascode/metalsmith-writemetadata#edeb76770e93adf735de7da48fee399169370d21",
     "metalsmith-yaml": "github:astralfrontier/metalsmith-yaml#286404562212e749519faa0cb4f5db10e0a954e1",
-    "pug": "^2.0.0-rc.2",
+    "pug": "^2.0.4",
     "remark-frontmatter": "^1.2.0",
     "remark-preset-lint-markdown-style-guide": "^2.1.1",
     "sortablejs": "^1.6.0",
