@@ -16,7 +16,7 @@
   "dependencies": {
     "contentascode-mobile": "^0.1.4",
     "filter.js": "github:perfectwebteam/filter.js#655416cb21a3ab04fa5608f04f6b630629543cd0",
-    "handlebars": "^4.0.10",
+    "handlebars": "^4.7.3",
     "jstransformer-markdown-it": "^2.0.0",
     "lodash": "^4.17.4",
     "metalsmith-assets-copy": "^0.0.2",
