@@ -14,7 +14,7 @@
   "author": "",
   "license": "CC-BY-SA-3.0",
   "dependencies": {
-    "contentascode-mobile": "^0.1.4",
+    "contentascode-mobile": "^0.2.1",
     "filter.js": "github:perfectwebteam/filter.js#655416cb21a3ab04fa5608f04f6b630629543cd0",
     "handlebars": "^4.0.10",
     "jstransformer-markdown-it": "^2.0.0",
@@ -24,12 +24,12 @@
     "metalsmith-debug": "^1.1.0",
     "metalsmith-dynamic-collections": "^0.1.0",
     "metalsmith-env": "^2.0.0",
-    "metalsmith-filemetadata": "^1.0.0",
+    "metalsmith-filemetadata": "^3.0.0",
     "metalsmith-ignore": "^0.1.2",
     "metalsmith-layouts": "^1.8.1",
     "metalsmith-lunr": "^0.2.1",
-    "metalsmith-markdown": "^0.2.2",
-    "metalsmith-markdown-taxonomy": "^0.0.2",
+    "metalsmith-markdown": "^1.0.1",
+    "metalsmith-markdown-taxonomy": "^0.1.1",
     "metalsmith-matters": "^1.2.0",
     "metalsmith-metacopy": "github:contentascode/metalsmith-metacopy#195adf6c3fbe46d5b783f66f4fff30f6ca59002d",
     "metalsmith-migrate-safetag": "^0.1.7",
@@ -49,7 +49,7 @@
     "metalsmith-yaml": "github:astralfrontier/metalsmith-yaml#286404562212e749519faa0cb4f5db10e0a954e1",
     "pug": "^2.0.0-rc.2",
     "remark-frontmatter": "^1.2.0",
-    "remark-preset-lint-markdown-style-guide": "^2.1.1",
+    "remark-preset-lint-markdown-style-guide": "^3.0.0",
     "sortablejs": "^1.6.0",
     "vfile-reporter-pretty": "^1.0.1"
   }
